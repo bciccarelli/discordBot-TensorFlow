@@ -29,7 +29,7 @@ Training a model is as simple as these two lines (which could be condensed to on
 number_of_epochs = 1
 AI.train_model(model, data, number_of_epochs)
 ```
-The number of epochs is the number of times the model will train on your data. For chat logs consisting of ~1000 or less messages, the number of epochs may end up needing to be 
+The number of epochs is the number of times the model will train on your data. For chat logs consisting of ~1000 or less messages, the number of epochs may end up numbering in the dozens. For chat logs nearing tens or hundreds of thousands of messages, the needed number of epochs will be closer to 5-10.
 ### Generating text from a model
 A model must be converted to output mode first, and then text can be generated as shown:
 ```
