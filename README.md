@@ -1,9 +1,15 @@
 ## Using tensorflow to make speech-capable discord bots
 This repository has what you need to create a model, train it, and generate text using it.
 This repository also allows you to connect the tensorflow model directly to discord using a token that you must generate for your bot.
+### Setting up the project
+This project requires `python 3.6` for compatibility with tensorflow.  
+  
+Install dependencies with:  
+`pip install -r requirements.txt`
 ### Setting up a discord bot
 You can use this link to get started with making a discord bot:  
 https://discordapp.com/developers/applications  
+  
 Other tutorials are available to demonstrate how a bot is created for discord. Follow those tutorials until you are at the point where you have a token for your discord bot. This token is all you need to connect application.py to discord.
 ### Setting up tensorflow data
 All that is required to load data is a file that has the data in it, and the lines that follow:
